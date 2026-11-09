@@ -2,9 +2,9 @@
   "version": 1,
   "urlParams": {
     "lang": "fr",
-    "theme": "classic",
+    "theme": "zelos",
     "renderer": "zelos",
-    "board": "none",
+    "board": "arduino_uno",
     "gh": "BlocklyDuino/examples/blob/main/blink.µcb"
   },
   "workspace": {
@@ -14,8 +14,8 @@
         {
           "type": "board_base_setup_loop",
           "id": "JN59ttKLt+TMmPatISKq",
-          "x": -250,
-          "y": -310,
+          "x": -190,
+          "y": -650,
           "inputs": {
             "LOOP": {
               "block": {
