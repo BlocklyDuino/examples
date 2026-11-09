@@ -1,0 +1,82 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "board_base_setup_loop",
+        "id": "JN59ttKLt+TMmPatISKq",
+        "x": -250,
+        "y": -310,
+        "inputs": {
+          "LOOP": {
+            "block": {
+              "type": "board_base_inout_buildin_led",
+              "id": "3oe]Y.agw3U]$)ij:%vz",
+              "fields": {
+                "STAT": "HIGH"
+              },
+              "next": {
+                "block": {
+                  "type": "board_base_time_delay",
+                  "id": "VJ6_Xw%%E^-8S:jA{Th0",
+                  "inputs": {
+                    "DELAY_TIME": {
+                      "shadow": {
+                        "type": "math_number",
+                        "id": "xZz(;S`e6{Lxk(g:Bel6",
+                        "fields": {
+                          "NUM": 1000
+                        }
+                      },
+                      "block": {
+                        "type": "math_number",
+                        "id": "xkyKziW77,N).{.l0we:",
+                        "fields": {
+                          "NUM": 500
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "board_base_inout_buildin_led",
+                      "id": "FloQEHZD=412Ney;#![=",
+                      "fields": {
+                        "STAT": "LOW"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "board_base_time_delay",
+                          "id": ":U5f0b%|^q/[};l]fp#2",
+                          "inputs": {
+                            "DELAY_TIME": {
+                              "shadow": {
+                                "type": "math_number",
+                                "id": "xZz(;S`e6{Lxk(g:Bel6",
+                                "fields": {
+                                  "NUM": 1000
+                                }
+                              },
+                              "block": {
+                                "type": "math_number",
+                                "id": "@fw{bp)aFYa_}(s(oEc3",
+                                "fields": {
+                                  "NUM": 500
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "backpack": []
+}
